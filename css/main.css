@@ -97,21 +97,18 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.ed {
+  position: fixed;
+}
 
+.ed.view {
+  height: 38.2%; /* The golden ratio */
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.ed.itor {
+  top: 38.2%;
+  height: 61.8%; /* The golden ratio */
+}
 
 /* ==========================================================================
    Helper classes
