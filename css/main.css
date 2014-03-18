@@ -123,6 +123,20 @@ textarea {
   height: 61.8%; /* The golden ratio */
 }
 
+footer {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  z-index: 2;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+footer p {
+  margin-right: 1em;
+  text-align: right;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
