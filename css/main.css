@@ -99,10 +99,21 @@ textarea {
 
 .ed {
   position: fixed;
+  width: 100%;
 }
 
 .ed.view {
   height: 38.2%; /* The golden ratio */
+}
+
+.ed.view h1 {
+  text-align: center;
+}
+
+.ed.view button {
+  display: block;
+  width: 200px;
+  margin: auto;
 }
 
 .ed.itor {
