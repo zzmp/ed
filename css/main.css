@@ -131,6 +131,14 @@ textarea {
   padding: 8px;
 }
 
+.cover img.right {
+  left: calc(100% - 28px);
+}
+
+.cover img.bottom {
+  top: calc(100% - 28px);
+}
+
 .ed.itor {
   top: 38.2%;
   height: 61.8%; /* The golden ratio */
