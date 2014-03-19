@@ -149,6 +149,24 @@ textarea {
   height: 61.8%; /* The golden ratio */
 }
 
+.ed.itor div, .ed.itor article {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+.ed.itor .js {
+  width: 100%;
+}
+
+.ed.itor textarea {
+  margin: 25px;
+  box-sizing: border-box;
+  width: calc(100% - 50px);
+  height: calc(100% - 50px);
+  resize: none;
+}
+
 footer {
   display: none;
   position: absolute;
