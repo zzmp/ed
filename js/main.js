@@ -3,10 +3,11 @@ $(document).ready( function() {
   var $html = $('#html');
   var $css = $('#css');
   var $js = $('#js');
-  var $view = $('.ed.view');
+  var $view = $('.ed.view').contents().find('body');
   var $style = $('<style></style>');
   var $script = $('<script></script');
-  $('body').append($style).append($script);
+  $view = $view.append($style).append($script).append('<main></main>')
+               .find('main');
   var review = function( isHtmlChanged, isCssChanged, isJsChanged ) {
     var updateCss = function() {
       $style.html($css.text());
