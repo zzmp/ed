@@ -22,7 +22,12 @@ $(document).ready( function() {
     if ( isCssChanged ) { updateCss(); }
     if ( isHtmlChanged ) { updateHtml(); }
     if ( isJsChanged ) { updateJs(); }
-  }(true, true, true);
+  };
+  review(true, true, true);
+
+  $('#html').change( function() { review( true, false, false ); } );
+  $('#css').change( function() { review( false, true, false ); } );
+  $('#js').change( function() { review( false, false, true ); } );
 
   var uncover = function() {
     var $cover = $('.cover');
