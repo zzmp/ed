@@ -104,6 +104,10 @@ textarea {
   border: 1px solid black;
 }
 
+.ed.view {
+  height: 38.2%; /* The golden ratio */
+}
+
 .cover {
   background: url('../img/cover.png') no-repeat center center;
   -webkit-background-size: cover;
