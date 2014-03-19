@@ -104,20 +104,6 @@ textarea {
   border: 1px solid black;
 }
 
-.ed.view {
-  height: 38.2%; /* The golden ratio */
-}
-
-.ed.view h1 {
-  text-align: center;
-}
-
-.ed.view button {
-  display: block;
-  width: 200px;
-  margin: auto;
-}
-
 .cover {
   background: url('../img/cover.png') no-repeat center center;
   -webkit-background-size: cover;
