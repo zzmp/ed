@@ -39,15 +39,40 @@
           </aside>
           <div>
             <article class="html">
-              <textarea id="html"></textarea>
+              <textarea id="html">
+<h1><b>ed</b> it</h1>
+<button id="collaborate">stop</button>
+              </textarea>
             </article>
             <article class="css">
-              <textarea id="css"></textarea>
+              <textarea id="css">
+.ed.view {
+  height: 38.2%; /* The golden ratio */
+}
+
+.ed.view h1 {
+  text-align: center;
+}
+
+.ed.view button {
+  display: block;
+  width: 200px;
+  margin: auto;
+}
+              </textarea>
             </article>
           </div>
           <div>
             <article class="js">
-              <textarea id="js"></textarea>
+              <textarea id="js">
+$('#collaborate').on( 'mouseenter', function() {
+  $(this).html( '<em>collaborate</em> and listen' );
+});
+
+$('#collaborate').on( 'mouseleave', function() {
+  $(this).text( 'stop' );
+});
+              </textarea>
             </article>
           </div>
         </section>
